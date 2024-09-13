@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border: 1px solid;
+    border-color: #000000;
+}
+
+td {
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.primeira {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid;
+    border-color: #000000;
+    padding: 10px 30px;
+}
+
+a:hover {
+    background-color: #555C66;
+    color: #ffffff;
+}
+
+    .blue1 {
+        background-color: rgb(89, 158, 181);
+        color: #FFFFFF;
+    }
+
+    .blue1:hover {
+        background-color: #1a3880;
+        color: #ffffff;
+    }
+    .blue2 {
+        background-color: #4561af;
+        color: #FFFFFF;
+    }
+
+    .blue2:hover {
+        background-color: rgb(23, 140, 180);
+        color: #ffffff;
+    }
+    .blue3 {
+        background-color: rgb(25, 58, 222);
+        color: #FFFFFF;
+    }
+
+    .blue3:hover {
+        background-color: #1a3880;
+        color: #ffffff;
+    }
+
+.central {
+    background-color: #F5F7FA;
+}
+
+th {
+    padding: 15px 0;
+    color: #4d4b4b;
+}
+
+th:nth-child(1) {
+    color: #000;
+    background-color: #ece5e5;
+}
+
+th:nth-child(2) {
+    background-color: #ffffff;
+}
+
+th:nth-child(3) {
+    background-color: #ffffff;
+}
+
+th:nth-child(4) { background-color: #ffffff;
+    -color: #70CF69;
+}
+.cubo1 {
+    background-color: rgb(89, 158, 181);
+    color: white;
+    font-size:xx-large;
+}
+.cubo2 {
+    background-color: rgb(23, 140, 180);
+    color: white;
+    font-size:xx-large;
+}
+.cubo3 {
+    background-color: rgb(25, 58, 222);
+    color: white;
+    font-size:xx-large;
+}
